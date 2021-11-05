@@ -1,6 +1,6 @@
 #include <Arduino.h>
 
-int pausa = 1000; //interval pause
+int pause = 1000; //interval pause
 
 void setup()
 {
@@ -27,23 +27,23 @@ void display(int a, int b, int c, int d, int e, int f, int g)
 void loop()
 {
     display(1, 1, 1, 1, 1, 1, 0); //write 0
-    delay(pausa);
+    delay(pause);
     display(0, 1, 1, 0, 0, 0, 0); //write 1
-    delay(pausa);
+    delay(pause);
     display(1, 1, 0, 1, 1, 0, 1); //write 2
-    delay(pausa);
+    delay(pause);
     display(1, 1, 1, 1, 0, 0, 1); //write 3
-    delay(pausa);
+    delay(pause);
     display(0, 1, 1, 0, 0, 1, 1); //write 4
-    delay(pausa);
+    delay(pause);
     display(1, 0, 1, 1, 0, 1, 1); //write 5
-    delay(pausa);
+    delay(pause);
     display(1, 0, 1, 1, 1, 1, 1); //write 6
-    delay(pausa);
+    delay(pause);
     display(1, 1, 1, 0, 0, 0, 0); //write 7
-    delay(pausa);
+    delay(pause);
     display(1, 1, 1, 1, 1, 1, 1); //write 8
-    delay(pausa);
+    delay(pause);
     display(1, 1, 1, 0, 0, 1, 1); //write 9
-    delay(pausa);
+    delay(pause);
 }
